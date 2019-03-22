@@ -39,7 +39,3 @@ def valid_move?(board, position)
   else
   end
 end
-
-
-
-end
