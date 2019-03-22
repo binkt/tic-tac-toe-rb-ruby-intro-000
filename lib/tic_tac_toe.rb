@@ -34,7 +34,9 @@ def position_taken?(board, position)
 end
 
 def valid_move?(board, position)
-
+  if position > 8
+    return false
+  end
 end
 
 
