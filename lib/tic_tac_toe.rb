@@ -34,5 +34,11 @@ def position_taken?(board, position)
 end
 
 def valid_move?(board, position)
-  position.between(0,8)
+  if !position.between(0,8)
+    return false
+  elsif board[position] != " "
+    return false
+  else
+    return true
+  end    
 end
