@@ -35,7 +35,7 @@ end
 
 def valid_move?(board, position)
   if position > 8
-    return 
+    return
   else
   end
 end
