@@ -40,5 +40,5 @@ def valid_move?(board, position)
     return false
   else
     return true
-  end    
+  end
 end
